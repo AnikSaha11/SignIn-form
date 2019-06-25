@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	background:url(../img/tyui.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.container {
+	width: 500px;
+	margin: 8% auto;
+}
+
+.signup-section{
+	background-color: #1f1d1d6b;
+	padding: 20px;
+	border-radius: 13px;
+
+}
+.signup-section h3{
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	padding: 10px;
+	
+}
+.form-control{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: 11px;
+	border-radius: 13px;
+	border: none;
+
+}
+.register-btn{
+	font-size: 17px;
+	background-color: #f50303ad;
+	padding: 10px 30px;
+	color: #fff;
+	margin: 0 auto;
+	display: block;
+	border: none;
+	border-radius: 13px;
+	text-transform: uppercase;
+}
+.register-btn:hover{
+	box-shadow: 2px 3px 5px white;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.link{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #0e0e0e52;
+}
+.link a {
+	color: orange;
+}
+.link a:hover{
+	color: #1ac6ff;
+	transition: 0.5s;
+}
